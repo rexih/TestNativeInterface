@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_main_test_class_method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试class与object相关api"/>
+
+        <Button
+            android:id="@+id/btn_main_test_alloc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试AllocObject"/>
+
+        <Button
+            android:id="@+id/btn_main_test_alloc_no_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试无默认构造函数的AllocObject"/>
+
+        <Button
+            android:id="@+id/btn_main_test_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试NewObject"/>
+
+        <Button
+            android:id="@+id/btn_main_test_new_no_def_wrong_mid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="no def ctor的NewObject 错误签名"/>
+
+        <Button
+            android:id="@+id/btn_main_test_new_no_def_wrong_mid_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="no def ctor的NewObject 错签名查异常错入参"/>
+
+        <Button
+            android:id="@+id/btn_main_test_new_no_def_right_param"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="no def ctor的NewObject 正确入参"/>
+
+        <Button
+            android:id="@+id/btn_main_test_new_no_def_wrong_string_param"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="no def ctor的NewObject 错误String入参"/>
+
+        <Button
+            android:id="@+id/btn_main_test_method_call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试call等Method的操作"/>
+
+        <Button
+            android:id="@+id/btn_main_test_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试Field的操作"/>
+        <Button
+            android:id="@+id/btn_main_test_reflection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试反射相关的操作"/>
+
+    </LinearLayout>
+</ScrollView>
